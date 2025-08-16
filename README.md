@@ -1,20 +1,18 @@
 # AI Trip Planner
 
-AI Trip Planner helps users plan trips using AI-assisted suggestions for itineraries, places to visit, transportation, and accommodations. It provides an interface and integrations to generate personalized trip plans, optimize routes, and export itineraries.
+AI Trip Planner helps users plan trips using AI-assisted suggestions for itineraries, places to visit, and accommodations.
 
 Features
-- Generate personalized multi-day itineraries based on preferences (duration, interests, pace).
+- Generate personalized multi-day itineraries based on preferences (duration, budget, number of people).
 - Suggest attractions, restaurants, and accommodations.
-- Optimize travel routes and provide estimated times.
-- Export itineraries to common formats (PDF, JSON, iCal).
 - Configurable via environment variables and API keys.
 
 Quickstart
 
 Prerequisites
-- Node.js 16+ (or the version specified by the project)
+- Node.js 20+
 - npm or yarn
-- An OpenAI API key (if the project integrates with OpenAI)
+- An Google API key 
 - Any other third-party API keys (maps, places) as needed
 
 Install
@@ -76,19 +74,3 @@ If tests exist, run them with:
 npm test
 
 If there are no tests yet, consider adding unit and integration tests.
-
-Contributing
-
-Contributions are welcome! Please open issues for bugs or feature requests and submit pull requests for changes. Follow the repository's code style and include tests and documentation for new features.
-
-License
-
-Specify a license (e.g., MIT) or check the repository for an existing LICENSE file.
-
-Contact
-
-For questions, open an issue or reach out to the repository owner: Saicbmm
-
-Notes
-
-This README is a starting point. Update the sections above to reflect the project's actual commands, environment variables, and architecture.
